@@ -20,9 +20,6 @@ const generateRandom = (length, chars) => {
   let password = "";
   for (let i = 0; i < length; i++) {
     password += chars.charAt(Math.floor(Math.random() * chars.length));
-    // Math.random() * chars.length  retourne un nombre entre 0 et la longueur de chars
-    // Math.floor() arrondi le nombre à l'entier inférieur
-    // chars.charAt() retourne le caractère à la position donnée
   }
   return password;
 };
