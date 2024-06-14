@@ -9,7 +9,6 @@ const readline = createInterface({
 const question = (query) =>
   new Promise((resolve) => readline.question(query, resolve));
 //  cela resoud la promesse et retourne la reponse
-// afin de pouvoir
 
 const min = "abcdefghijklmnopqrstuvwxyz";
 const maj = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
