@@ -11,8 +11,8 @@ const question = (query) =>
 //  cela resaoud la promesse et retourne la reponse
 // afin de pouvoir
 
-const maj = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const min = "abcdefghijklmnopqrstuvwxyz";
+const maj = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const nums = "0123456789";
 const spec = " !\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~";
 
