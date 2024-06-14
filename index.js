@@ -8,7 +8,7 @@ const readline = createInterface({
 
 const question = (query) =>
   new Promise((resolve) => readline.question(query, resolve));
-//  cela resaoud la promesse et retourne la reponse
+//  cela resoud la promesse et retourne la reponse
 // afin de pouvoir
 
 const min = "abcdefghijklmnopqrstuvwxyz";
